@@ -1,176 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aliya Saraswati</title>
-
-    <!-- box icons -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aliya</title>
+    <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-
-  <body>
-    <!-- header design -->
-    <header class="header">
-      <a href="#" class="logo">Portofolio</a>
-
-      <i class='bx bx-menu' id="menu-icon"></i>
+</head>
+<body>
     
-  
-     <nav class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#portofolio">Portofolio</a>
-      <a href="#contact">Contact</a>
-     </nav>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Username" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
 
-    </header>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> remember me</label>
+                <a href="#">Forgot password</a>
+            </div>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-      <div class="home-content">
-        <h3>Hallo, saya</h3>
-        <h1>Aliya Saraswati</h1>
-        <h3>Saya seorang <span class="multiple-text"></span></h3>
-        <p>Selamat datang di website saya</p>
-      
-      <div class="social-media">
-        <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-        <a href="#"><i class='bx bxl-tiktok'></i></a>
-        <a href="#"><i class='bx bx-link' ></i></a>
-        <a href="#"><i class='bx bxl-twitter' ></i></a>
-      </div>
-      <a href="jett-removebg.png" class="btn">Download CV</a>
+            <button type="submit" class="btn"> Login</button>
+            <div class="register-link">
+                <p>don't have an account? <a href="#">Register</a></p>
+            </div>
+        </form>
     </div>
-
-
-      <div class="home-img">
-        <img src="images/cwe.png">
-      </div>
-    </section>
-
-    <!-- about section design -->
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="images/cwe.png" alt="">
-      </div>
-
-      <div class="about-content">
-        <h2 class="heading">Tentang <span>Saya</span></h2>
-        <h3>Aliya</h3>
-        <p>Saya adalah seorang pelajar. Saya bersekolah di SMK Krian 1 Sidoarjo. Sekarang saya kelas XII jurusan Rekayasa Perangkat Lunak (RPL).</p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </section>
-
-    <!-- services section design -->
-    <section class="services" id="services">
-      <h2 class="heading">Layanan <span>Kami</span></h2>
-
-      <div class="services-container">
-        <div class="services-box">
-          <i class='bx bxs-pen'></i>
-          <h3>Desain Grafis</h3>
-          <p>Melayani anda dengan keterampilan saya di bidang desain grafis.</p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-      
-
-      
-        <div class="services-box">
-          <i class='bx bx-bar-chart'></i>
-          <h3>Digital Marketing</h3>
-          <p>Jika anda mengalami masalah pemasaran digital, kami punya solusinya.</p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-      
-
-      
-        <div class="services-box">
-          <i class='bx bx-code-alt'></i>
-          <h3>Web Developer</h3>
-          <p>Ingin mencari layanan pengembang web yang kualitasnya terjamin? Kunjungi situs web saya.</p>
-          <a href="#" class="btn">Read More</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- portfolio section design -->
-    <section class="portofolio" id="portofolio">
-      <h2 class="heading">Projek <span>Terakhir</span></h2>
-
-      <div class="portofolio-container">
-        <div class="portofolio-box">
-          <img src="images/login puss.JPG" alt="">
-          <div class="portofolio-layer">
-            <h4>Halaman Login</h4>
-            <p>Saya membuat halaman login menggunakan HTML dan CSS.</p>
-            <a href="file:///C:/login%20al/index.html"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portofolio-box">
-          <img src="images/blog.JPG" alt="">
-          <div class="portofolio-layer">
-            <h4>Normalisasi Database</h4>
-            <p>Saya membuat cara menormalisasikan database.</p>
-            <a href="https://aliyasaraswati.blogspot.com/"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-
-        <div class="portofolio-box">
-          <img src="images/porto.png" alt="">
-          <div class="portofolio-layer">
-            <h4>Portofolio</h4>
-            <p>Saya membuat projek portofolio.</p>
-            <a href="file:///D:/project%20portofolio/Start%20Project%20Complete%20Responsive%20Portfolio%20Website/index.html"><i class='bx bx-link-external'></i></a>
-          </div>
-        </div>
-    </section>
-
-    <!-- contact section design -->
-    <section class="contact" id="contact">
-      <h2 class="heading">Kontak <span>Saya!</span></h2>
-
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Full Name">
-          <input type="email" placeholder="Email Addres">
-        </div>
-
-        <div class="input-box">
-          <input type="number" placeholder="Mobile Number">
-          <input type="text" placeholder="Email Subject">
-        </div>
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Name"></textarea>
-        <input type="submit" value="Send Massage" class="btn">
-      </form>
-    </section>
-
-    <!-- footer design -->
-    <footer class="footer">
-      <div class="footer-text">
-        <p>Copyright &copy; 2024 by Aliya. | All Rights Reserved.</p>
-      </div>
-
-      <div class="footer-iconTop">
-        <a href="#home"><i class='bx bx-up-arrow-circle'></i></a>
-      </div>
+    <footer>
+        
     </footer>
-
-
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
+</body>
 </html>
